@@ -1,0 +1,14 @@
+[project]
+name = "pandora-automation"
+version = "0.1.0"
+description = "Automation script for updating Pandora thresholds"
+requires-python = ">=3.8"
+dependencies = [
+    "pymysql>=1.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+

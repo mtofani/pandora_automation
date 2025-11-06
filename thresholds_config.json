@@ -1,0 +1,19 @@
+{
+    "default": {
+      "min_critical": 10
+    },
+    "rules": [
+      {
+        "agent_name_pattern": "dedicado-ORA",
+        "module_name_pattern": "Free Space",
+        "min_critical": 15,
+        "max_critical": 95
+      },
+      {
+        "agent_name_pattern": "esx",
+        "module_name_pattern": "Free Space",
+        "min_critical": 5
+      }
+    ]
+  }
+  
