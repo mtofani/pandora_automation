@@ -31,17 +31,19 @@ def load_thresholds_config():
 
 
 def match_rule(agent_name, module_name, rules):
-    """Devuelve la primera regla que matchee los patrones"""
-    agent_name = agent_name.lower()
-    module_name = module_name.lower()
-    for rule in rules:
-        if (
-            rule["agent_name_pattern"].lower() in agent_name
-            and rule["module_name_pattern"].lower() in module_name
-        ):
-            return rule
-    return None
+    """Devuelve la primera regla que matchee tipo LIKE '%valor%' (sensible a guiones y espacios)."""
+    agent_name_l = agent_name.lower()
+    module_name_l = module_name.lower()
 
+    for rule in rules:
+        agent_pattern = rule["agent_name_pattern"].lower()
+        module_pattern = rule["module_name_pattern"].lower()
+
+        # Comparación tipo SQL LIKE '%pattern%'
+        if agent_pattern in agent_name_l and module_pattern in module_name_l:
+            return rule
+
+    return None
 
 def main():
     db_cfg, DRY_RUN = load_config()
