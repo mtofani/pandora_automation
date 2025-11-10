@@ -1,0 +1,177 @@
+2025-11-10 17:36:08 [INFO] 📋 Procesando grupos: [16, 18]
+2025-11-10 17:36:08 [INFO] 🔍 22 módulos a actualizar.
+2025-11-10 17:36:08 [INFO] 🚀 Modo FORCE: aplicando actualizaciones.
+2025-11-10 17:36:08 [INFO] • Grupo 16 → VMw_DS_DES_DS-dedicado-TMSDBT01-SSD-NEW / Disk Overallocation - DS-dedicado-TMSDBT01-SSD-NEW (Datastore Dedicado)
+2025-11-10 17:36:08 [INFO]    - min_critical: 100.0 → 100
+2025-11-10 17:36:08 [INFO] • Grupo 16 → VMw_DS_DES_DS-dedicado-ORADBD04 / Disk Overallocation - DS-dedicado-ORADBD04 (Datastore Dedicado)
+2025-11-10 17:36:08 [INFO]    - min_critical: 100.0 → 100
+2025-11-10 17:36:08 [INFO] • Grupo 16 → VMw_DS_DES_Isilon_Migraciones / Free Space - Isilon_Migraciones (Datastore Compartido)
+2025-11-10 17:36:08 [INFO]    - min_critical: 0.0 → 0
+2025-11-10 17:36:08 [INFO]    - max_critical: 3.0 → 3
+2025-11-10 17:36:08 [INFO] • Grupo 16 → VMw_DS_DES_G400.101 - VMs VVI / Free Space - G400.101 - VMs VVI (Datastore Compartido)
+2025-11-10 17:36:08 [INFO]    - min_critical: 0.0 → 0
+2025-11-10 17:36:08 [INFO]    - max_critical: 3.0 → 3
+2025-11-10 17:36:08 [INFO] • Grupo 16 → VMw_DS_DES_datastore1 / Free Space - datastore1 (Datastore Compartido)
+2025-11-10 17:36:08 [INFO]    - min_critical: 0.0 → 0
+2025-11-10 17:36:08 [INFO]    - max_critical: 3.0 → 3
+2025-11-10 17:36:08 [INFO] • Grupo 16 → VMw_DS_DES_ds-dedicado-ORATMS01-SSD-NEW / Disk Overallocation - ds-dedicado-ORATMS01-SSD-NEW (Datastore Dedicado)
+2025-11-10 17:36:08 [INFO]    - min_critical: 100.0 → 100
+2025-11-10 17:36:08 [INFO] • Grupo 16 → VMw_DS_DES_DS-dedicado-DRP / Disk Overallocation - DS-dedicado-DRP (Datastore Dedicado)
+2025-11-10 17:36:08 [INFO]    - min_critical: 100.0 → 100
+2025-11-10 17:36:08 [INFO] • Grupo 16 → VMw_DS_DES_g400.0 - VMs VDI / Free Space - g400.0 - VMs VDI (Datastore Compartido)
+2025-11-10 17:36:08 [INFO]    - min_critical: 0.0 → 0
+2025-11-10 17:36:08 [INFO]    - max_critical: 3.0 → 3
+2025-11-10 17:36:08 [INFO] • Grupo 16 → VMw_DS_DES_DS-dedicado-SQLDBP02-SSD-NEW / Disk Overallocation - DS-dedicado-SQLDBP02-SSD-NEW (Datastore Dedicado)
+2025-11-10 17:36:08 [INFO]    - min_critical: 100.0 → 100
+2025-11-10 17:36:08 [INFO] • Grupo 16 → VMw_DS_DES_DS_Des1 / Free Space - DS_Des1 (Datastore Compartido)
+2025-11-10 17:36:08 [INFO]    - min_critical: 0.0 → 0
+2025-11-10 17:36:08 [INFO]    - max_critical: 3.0 → 3
+2025-11-10 17:36:08 [INFO] • Grupo 16 → VMw_DS_DES_DS_Des2 / Free Space - DS_Des2 (Datastore Compartido)
+2025-11-10 17:36:08 [INFO]    - min_critical: 0.0 → 0
+2025-11-10 17:36:08 [INFO]    - max_critical: 3.0 → 3
+2025-11-10 17:36:08 [INFO] • Grupo 16 → VMw_DS_DES_DS-dedicado-TMSDBD02-SSD-NEW / Disk Overallocation - DS-dedicado-TMSDBD02-SSD-NEW (Datastore Dedicado)
+2025-11-10 17:36:08 [INFO]    - min_critical: 100.0 → 100
+2025-11-10 17:36:08 [INFO] • Grupo 16 → VMw_DS_DES_vmwvvi03 / Free Space - vmwvvi03 (Datastore Compartido)
+2025-11-10 17:36:08 [INFO]    - min_critical: 0.0 → 0
+2025-11-10 17:36:08 [INFO]    - max_critical: 3.0 → 3
+2025-11-10 17:36:08 [INFO] • Grupo 16 → VMw_DS_DES_dswmwesx09 / Free Space - dswmwesx09 (Datastore Compartido)
+2025-11-10 17:36:08 [INFO]    - min_critical: 0.0 → 0
+2025-11-10 17:36:08 [INFO]    - max_critical: 3.0 → 3
+2025-11-10 17:36:08 [INFO] • Grupo 16 → VMw_DS_DES_DS_Des3 / Free Space - DS_Des3 (Datastore Compartido)
+2025-11-10 17:36:08 [INFO]    - min_critical: 0.0 → 0
+2025-11-10 17:36:08 [INFO]    - max_critical: 3.0 → 3
+2025-11-10 17:36:08 [INFO] • Grupo 16 → VMw_DS_DES_DS-dedicado-AFIAPP01-SSD-NEW / Disk Overallocation - DS-dedicado-AFIAPP01-SSD-NEW (Datastore Dedicado)
+2025-11-10 17:36:08 [INFO]    - min_critical: 100.0 → 100
+2025-11-10 17:36:08 [INFO] • Grupo 16 → VMw_DS_DES_DS-dedicado-ORADBD03-SSD-NEW / Disk Overallocation - DS-dedicado-ORADBD03-SSD-NEW (Datastore Dedicado)
+2025-11-10 17:36:08 [INFO]    - min_critical: 100.0 → 100
+2025-11-10 17:36:08 [INFO] • Grupo 16 → VMw_DS_DES_DS-dedicado-NMSDBD02-SSD-NEW / Disk Overallocation - DS-dedicado-NMSDBD02-SSD-NEW (Datastore Dedicado)
+2025-11-10 17:36:08 [INFO]    - min_critical: 100.0 → 100
+2025-11-10 17:36:08 [INFO] • Grupo 16 → VMw_DS_DES_VVI_Isilon / Free Space - VVI_Isilon (Datastore Compartido)
+2025-11-10 17:36:08 [INFO]    - min_critical: 0.0 → 0
+2025-11-10 17:36:08 [INFO]    - max_critical: 3.0 → 3
+2025-11-10 17:36:08 [INFO] • Grupo 16 → VMw_DS_DES_dsvmwesx08 / Free Space - dsvmwesx08 (Datastore Compartido)
+2025-11-10 17:36:08 [INFO]    - min_critical: 0.0 → 0
+2025-11-10 17:36:08 [INFO]    - max_critical: 3.0 → 3
+2025-11-10 17:36:08 [INFO] • Grupo 16 → VMw_DS_DES_vmwvvi02 / Free Space - vmwvvi02 (Datastore Compartido)
+2025-11-10 17:36:08 [INFO]    - min_critical: 0.0 → 0
+2025-11-10 17:36:08 [INFO]    - max_critical: 3.0 → 3
+2025-11-10 17:36:08 [INFO] • Grupo 16 → VMw_DS_DES_DS-dedicado-TMSDBH01-SSD-NEW / Disk Overallocation - DS-dedicado-TMSDBH01-SSD-NEW (Datastore Dedicado)
+2025-11-10 17:36:08 [INFO]    - min_critical: 100.0 → 100
+2025-11-10 17:36:08 [INFO] ✅ Actualizados 22 registros.
+2025-11-10 17:36:08 [INFO] 📝 Log en: update_thresholds.log
+
+2025-11-10 17:37:01 [INFO] 📋 Procesando grupos: [16, 18]
+2025-11-10 17:37:01 [INFO] 🔍 0 módulos a actualizar.
+2025-11-10 17:37:01 [INFO] ✅ No hay cambios pendientes.
+2025-11-10 17:37:02 [INFO] 📋 Procesando grupos: [16, 18]
+2025-11-10 17:37:02 [INFO] 🔍 22 módulos a actualizar.
+2025-11-10 17:37:02 [INFO] 🚀 Modo FORCE: aplicando actualizaciones.
+2025-11-10 17:37:02 [INFO] • Grupo 16 → VMw_DS_DES_DS-dedicado-TMSDBT01-SSD-NEW / Disk Overallocation - DS-dedicado-TMSDBT01-SSD-NEW (Datastore Dedicado)
+2025-11-10 17:37:02 [INFO]    - min_critical: 100.0 → 100
+2025-11-10 17:37:02 [INFO] • Grupo 16 → VMw_DS_DES_DS-dedicado-ORADBD04 / Disk Overallocation - DS-dedicado-ORADBD04 (Datastore Dedicado)
+2025-11-10 17:37:02 [INFO]    - min_critical: 100.0 → 100
+2025-11-10 17:37:02 [INFO] • Grupo 16 → VMw_DS_DES_Isilon_Migraciones / Free Space - Isilon_Migraciones (Datastore Compartido)
+2025-11-10 17:37:02 [INFO]    - min_critical: 0.0 → 0
+2025-11-10 17:37:02 [INFO]    - max_critical: 3.0 → 3
+2025-11-10 17:37:02 [INFO] • Grupo 16 → VMw_DS_DES_G400.101 - VMs VVI / Free Space - G400.101 - VMs VVI (Datastore Compartido)
+2025-11-10 17:37:02 [INFO]    - min_critical: 0.0 → 0
+2025-11-10 17:37:02 [INFO]    - max_critical: 3.0 → 3
+2025-11-10 17:37:02 [INFO] • Grupo 16 → VMw_DS_DES_datastore1 / Free Space - datastore1 (Datastore Compartido)
+2025-11-10 17:37:02 [INFO]    - min_critical: 0.0 → 0
+2025-11-10 17:37:02 [INFO]    - max_critical: 3.0 → 3
+2025-11-10 17:37:02 [INFO] • Grupo 16 → VMw_DS_DES_ds-dedicado-ORATMS01-SSD-NEW / Disk Overallocation - ds-dedicado-ORATMS01-SSD-NEW (Datastore Dedicado)
+2025-11-10 17:37:02 [INFO]    - min_critical: 100.0 → 100
+2025-11-10 17:37:02 [INFO] • Grupo 16 → VMw_DS_DES_DS-dedicado-DRP / Disk Overallocation - DS-dedicado-DRP (Datastore Dedicado)
+2025-11-10 17:37:02 [INFO]    - min_critical: 100.0 → 100
+2025-11-10 17:37:02 [INFO] • Grupo 16 → VMw_DS_DES_g400.0 - VMs VDI / Free Space - g400.0 - VMs VDI (Datastore Compartido)
+2025-11-10 17:37:02 [INFO]    - min_critical: 0.0 → 0
+2025-11-10 17:37:02 [INFO]    - max_critical: 3.0 → 3
+2025-11-10 17:37:02 [INFO] • Grupo 16 → VMw_DS_DES_DS-dedicado-SQLDBP02-SSD-NEW / Disk Overallocation - DS-dedicado-SQLDBP02-SSD-NEW (Datastore Dedicado)
+2025-11-10 17:37:02 [INFO]    - min_critical: 100.0 → 100
+2025-11-10 17:37:02 [INFO] • Grupo 16 → VMw_DS_DES_DS_Des1 / Free Space - DS_Des1 (Datastore Compartido)
+2025-11-10 17:37:02 [INFO]    - min_critical: 0.0 → 0
+2025-11-10 17:37:02 [INFO]    - max_critical: 3.0 → 3
+2025-11-10 17:37:02 [INFO] • Grupo 16 → VMw_DS_DES_DS_Des2 / Free Space - DS_Des2 (Datastore Compartido)
+2025-11-10 17:37:02 [INFO]    - min_critical: 0.0 → 0
+2025-11-10 17:37:02 [INFO]    - max_critical: 3.0 → 3
+2025-11-10 17:37:02 [INFO] • Grupo 16 → VMw_DS_DES_DS-dedicado-TMSDBD02-SSD-NEW / Disk Overallocation - DS-dedicado-TMSDBD02-SSD-NEW (Datastore Dedicado)
+2025-11-10 17:37:02 [INFO]    - min_critical: 100.0 → 100
+2025-11-10 17:37:02 [INFO] • Grupo 16 → VMw_DS_DES_vmwvvi03 / Free Space - vmwvvi03 (Datastore Compartido)
+2025-11-10 17:37:02 [INFO]    - min_critical: 0.0 → 0
+2025-11-10 17:37:02 [INFO]    - max_critical: 3.0 → 3
+2025-11-10 17:37:02 [INFO] • Grupo 16 → VMw_DS_DES_dswmwesx09 / Free Space - dswmwesx09 (Datastore Compartido)
+2025-11-10 17:37:02 [INFO]    - min_critical: 0.0 → 0
+2025-11-10 17:37:02 [INFO]    - max_critical: 3.0 → 3
+2025-11-10 17:37:02 [INFO] • Grupo 16 → VMw_DS_DES_DS_Des3 / Free Space - DS_Des3 (Datastore Compartido)
+2025-11-10 17:37:02 [INFO]    - min_critical: 0.0 → 0
+2025-11-10 17:37:02 [INFO]    - max_critical: 3.0 → 3
+2025-11-10 17:37:02 [INFO] • Grupo 16 → VMw_DS_DES_DS-dedicado-AFIAPP01-SSD-NEW / Disk Overallocation - DS-dedicado-AFIAPP01-SSD-NEW (Datastore Dedicado)
+2025-11-10 17:37:02 [INFO]    - min_critical: 100.0 → 100
+2025-11-10 17:37:02 [INFO] • Grupo 16 → VMw_DS_DES_DS-dedicado-ORADBD03-SSD-NEW / Disk Overallocation - DS-dedicado-ORADBD03-SSD-NEW (Datastore Dedicado)
+2025-11-10 17:37:02 [INFO]    - min_critical: 100.0 → 100
+2025-11-10 17:37:02 [INFO] • Grupo 16 → VMw_DS_DES_DS-dedicado-NMSDBD02-SSD-NEW / Disk Overallocation - DS-dedicado-NMSDBD02-SSD-NEW (Datastore Dedicado)
+2025-11-10 17:37:02 [INFO]    - min_critical: 100.0 → 100
+2025-11-10 17:37:02 [INFO] • Grupo 16 → VMw_DS_DES_VVI_Isilon / Free Space - VVI_Isilon (Datastore Compartido)
+2025-11-10 17:37:02 [INFO]    - min_critical: 0.0 → 0
+2025-11-10 17:37:02 [INFO]    - max_critical: 3.0 → 3
+2025-11-10 17:37:02 [INFO] • Grupo 16 → VMw_DS_DES_dsvmwesx08 / Free Space - dsvmwesx08 (Datastore Compartido)
+2025-11-10 17:37:02 [INFO]    - min_critical: 0.0 → 0
+2025-11-10 17:37:02 [INFO]    - max_critical: 3.0 → 3
+2025-11-10 17:37:02 [INFO] • Grupo 16 → VMw_DS_DES_vmwvvi02 / Free Space - vmwvvi02 (Datastore Compartido)
+2025-11-10 17:37:02 [INFO]    - min_critical: 0.0 → 0
+2025-11-10 17:37:02 [INFO]    - max_critical: 3.0 → 3
+2025-11-10 17:37:02 [INFO] • Grupo 16 → VMw_DS_DES_DS-dedicado-TMSDBH01-SSD-NEW / Disk Overallocation - DS-dedicado-TMSDBH01-SSD-NEW (Datastore Dedicado)
+2025-11-10 17:37:02 [INFO]    - min_critical: 100.0 → 100
+2025-11-10 17:37:02 [INFO] ✅ Actualizados 22 registros.
+2025-11-10 17:37:02 [INFO] 📝 Log en: update_thresholds.log
+
+2025-11-10 17:41:25 [INFO] 📋 Procesando grupos: [16]
+2025-11-10 17:41:25 [INFO] 🔍 22 módulos a actualizar.
+2025-11-10 17:41:25 [INFO] 🚀 Modo NORMAL: aplicando actualizaciones.
+2025-11-10 17:41:25 [INFO] • Grupo 16 → VMw_DS_DES_DS-dedicado-TMSDBT01-SSD-NEW / Disk Overallocation - DS-dedicado-TMSDBT01-SSD-NEW (Datastore Dedicado)
+2025-11-10 17:41:25 [INFO]    - critical_instructions:  → Escalar al equipo de almacenamiento para revisión de datastore dedicado.
+2025-11-10 17:41:25 [INFO] • Grupo 16 → VMw_DS_DES_DS-dedicado-ORADBD04 / Disk Overallocation - DS-dedicado-ORADBD04 (Datastore Dedicado)
+2025-11-10 17:41:25 [INFO]    - critical_instructions:  → Escalar al equipo de almacenamiento para revisión de datastore dedicado.
+2025-11-10 17:41:25 [INFO] • Grupo 16 → VMw_DS_DES_Isilon_Migraciones / Free Space - Isilon_Migraciones (Datastore Compartido)
+2025-11-10 17:41:25 [INFO]    - critical_instructions:  → Verificar espacio libre en datastore compartido antes de escalar.
+2025-11-10 17:41:25 [INFO] • Grupo 16 → VMw_DS_DES_G400.101 - VMs VVI / Free Space - G400.101 - VMs VVI (Datastore Compartido)
+2025-11-10 17:41:25 [INFO]    - critical_instructions:  → Verificar espacio libre en datastore compartido antes de escalar.
+2025-11-10 17:41:25 [INFO] • Grupo 16 → VMw_DS_DES_datastore1 / Free Space - datastore1 (Datastore Compartido)
+2025-11-10 17:41:25 [INFO]    - critical_instructions:  → Verificar espacio libre en datastore compartido antes de escalar.
+2025-11-10 17:41:25 [INFO] • Grupo 16 → VMw_DS_DES_ds-dedicado-ORATMS01-SSD-NEW / Disk Overallocation - ds-dedicado-ORATMS01-SSD-NEW (Datastore Dedicado)
+2025-11-10 17:41:25 [INFO]    - critical_instructions:  → Escalar al equipo de almacenamiento para revisión de datastore dedicado.
+2025-11-10 17:41:25 [INFO] • Grupo 16 → VMw_DS_DES_DS-dedicado-DRP / Disk Overallocation - DS-dedicado-DRP (Datastore Dedicado)
+2025-11-10 17:41:25 [INFO]    - critical_instructions:  → Escalar al equipo de almacenamiento para revisión de datastore dedicado.
+2025-11-10 17:41:25 [INFO] • Grupo 16 → VMw_DS_DES_g400.0 - VMs VDI / Free Space - g400.0 - VMs VDI (Datastore Compartido)
+2025-11-10 17:41:25 [INFO]    - critical_instructions:  → Verificar espacio libre en datastore compartido antes de escalar.
+2025-11-10 17:41:25 [INFO] • Grupo 16 → VMw_DS_DES_DS-dedicado-SQLDBP02-SSD-NEW / Disk Overallocation - DS-dedicado-SQLDBP02-SSD-NEW (Datastore Dedicado)
+2025-11-10 17:41:25 [INFO]    - critical_instructions:  → Escalar al equipo de almacenamiento para revisión de datastore dedicado.
+2025-11-10 17:41:25 [INFO] • Grupo 16 → VMw_DS_DES_DS_Des1 / Free Space - DS_Des1 (Datastore Compartido)
+2025-11-10 17:41:25 [INFO]    - critical_instructions:  → Verificar espacio libre en datastore compartido antes de escalar.
+2025-11-10 17:41:25 [INFO] • Grupo 16 → VMw_DS_DES_DS_Des2 / Free Space - DS_Des2 (Datastore Compartido)
+2025-11-10 17:41:25 [INFO]    - critical_instructions:  → Verificar espacio libre en datastore compartido antes de escalar.
+2025-11-10 17:41:25 [INFO] • Grupo 16 → VMw_DS_DES_DS-dedicado-TMSDBD02-SSD-NEW / Disk Overallocation - DS-dedicado-TMSDBD02-SSD-NEW (Datastore Dedicado)
+2025-11-10 17:41:25 [INFO]    - critical_instructions:  → Escalar al equipo de almacenamiento para revisión de datastore dedicado.
+2025-11-10 17:41:25 [INFO] • Grupo 16 → VMw_DS_DES_vmwvvi03 / Free Space - vmwvvi03 (Datastore Compartido)
+2025-11-10 17:41:25 [INFO]    - critical_instructions:  → Verificar espacio libre en datastore compartido antes de escalar.
+2025-11-10 17:41:25 [INFO] • Grupo 16 → VMw_DS_DES_dswmwesx09 / Free Space - dswmwesx09 (Datastore Compartido)
+2025-11-10 17:41:25 [INFO]    - critical_instructions:  → Verificar espacio libre en datastore compartido antes de escalar.
+2025-11-10 17:41:25 [INFO] • Grupo 16 → VMw_DS_DES_DS_Des3 / Free Space - DS_Des3 (Datastore Compartido)
+2025-11-10 17:41:25 [INFO]    - critical_instructions:  → Verificar espacio libre en datastore compartido antes de escalar.
+2025-11-10 17:41:25 [INFO] • Grupo 16 → VMw_DS_DES_DS-dedicado-AFIAPP01-SSD-NEW / Disk Overallocation - DS-dedicado-AFIAPP01-SSD-NEW (Datastore Dedicado)
+2025-11-10 17:41:25 [INFO]    - critical_instructions:  → Escalar al equipo de almacenamiento para revisión de datastore dedicado.
+2025-11-10 17:41:25 [INFO] • Grupo 16 → VMw_DS_DES_DS-dedicado-ORADBD03-SSD-NEW / Disk Overallocation - DS-dedicado-ORADBD03-SSD-NEW (Datastore Dedicado)
+2025-11-10 17:41:25 [INFO]    - critical_instructions:  → Escalar al equipo de almacenamiento para revisión de datastore dedicado.
+2025-11-10 17:41:25 [INFO] • Grupo 16 → VMw_DS_DES_DS-dedicado-NMSDBD02-SSD-NEW / Disk Overallocation - DS-dedicado-NMSDBD02-SSD-NEW (Datastore Dedicado)
+2025-11-10 17:41:25 [INFO]    - critical_instructions:  → Escalar al equipo de almacenamiento para revisión de datastore dedicado.
+2025-11-10 17:41:25 [INFO] • Grupo 16 → VMw_DS_DES_VVI_Isilon / Free Space - VVI_Isilon (Datastore Compartido)
+2025-11-10 17:41:25 [INFO]    - critical_instructions:  → Verificar espacio libre en datastore compartido antes de escalar.
+2025-11-10 17:41:25 [INFO] • Grupo 16 → VMw_DS_DES_dsvmwesx08 / Free Space - dsvmwesx08 (Datastore Compartido)
+2025-11-10 17:41:25 [INFO]    - critical_instructions:  → Verificar espacio libre en datastore compartido antes de escalar.
+2025-11-10 17:41:25 [INFO] • Grupo 16 → VMw_DS_DES_vmwvvi02 / Free Space - vmwvvi02 (Datastore Compartido)
+2025-11-10 17:41:25 [INFO]    - critical_instructions:  → Verificar espacio libre en datastore compartido antes de escalar.
+2025-11-10 17:41:25 [INFO] • Grupo 16 → VMw_DS_DES_DS-dedicado-TMSDBH01-SSD-NEW / Disk Overallocation - DS-dedicado-TMSDBH01-SSD-NEW (Datastore Dedicado)
+2025-11-10 17:41:25 [INFO]    - critical_instructions:  → Escalar al equipo de almacenamiento para revisión de datastore dedicado.
+2025-11-10 17:41:25 [INFO] ✅ Actualizados 22 registros.
+2025-11-10 17:41:25 [INFO] 📝 Log en: update_thresholds.log
+
