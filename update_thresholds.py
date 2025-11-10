@@ -31,19 +31,36 @@ def load_thresholds_config():
 
 
 def match_rule(agent_name, module_name, rules):
-    """Devuelve la primera regla que matchee tipo LIKE '%valor%' (sensible a guiones y espacios)."""
+    """Devuelve la primera regla que matchee por patrón, includes o excludes."""
     agent_name_l = agent_name.lower()
     module_name_l = module_name.lower()
 
     for rule in rules:
-        agent_pattern = rule["agent_name_pattern"].lower()
-        module_pattern = rule["module_name_pattern"].lower()
+        includes = [s.lower() for s in rule.get("agent_name_includes", [])]
+        excludes = [s.lower() for s in rule.get("agent_name_excludes", [])]
+        agent_pattern = rule.get("agent_name_pattern", "").lower()
+        module_pattern = rule.get("module_name_pattern", "").lower()
 
-        # Comparación tipo SQL LIKE '%pattern%'
-        if agent_pattern in agent_name_l and module_pattern in module_name_l:
-            return rule
+        # Coincidencia de módulo
+        if module_pattern and module_pattern not in module_name_l:
+            continue
+
+        # Coincidencia directa de patrón de agente
+        if agent_pattern and agent_pattern not in agent_name_l:
+            continue
+
+        # Si hay includes: debe tener al menos una coincidencia
+        if includes and not any(x in agent_name_l for x in includes):
+            continue
+
+        # Si hay excludes: debe NO tener ninguna coincidencia
+        if excludes and any(x in agent_name_l for x in excludes):
+            continue
+
+        return rule
 
     return None
+
 
 def main():
     db_cfg, DRY_RUN = load_config()
@@ -72,7 +89,13 @@ def main():
         set_clauses = []
         values = []
         for key, val in fields.items():
-            if key in ("agent_name_pattern", "module_name_pattern"):
+            if key in (
+                "name",
+                "agent_name_pattern",
+                "agent_name_includes",
+                "agent_name_excludes",
+                "module_name_pattern",
+            ):
                 continue
             set_clauses.append(f"{key} = %s")
             values.append(val)

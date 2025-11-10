@@ -1,17 +1,17 @@
-  {
-      "default": {
-      
-      },
-      "rules": [
-        {
-          "agent_name_pattern": "dedicado-ORA",
-          "module_name_pattern": "Free Space",
-          "min_critical": 15        },
-        {
-          "agent_name_pattern": "esx",
-          "module_name_pattern": "Free Space",
-          "min_critical": 5
-        }
-      ]
+{
+  "default": {},
+  "rules": [
+    {
+      "name": "Datastore Compartido",
+      "agent_name_excludes": ["ds-", "DS", "repositorio", "dedicado", "Veeam", "Tier"],
+      "module_name_pattern": "Free Space - datastore",
+      "min_critical": 3
+    },
+    {
+      "name": "Datastore Dedicado",
+      "agent_name_includes": ["ds-", "DS", "repositorio", "dedicado", "Veeam", "Tier"],
+      "module_name_pattern": "Disk Overallocation - datastore",
+      "max_critical": 100
     }
-    
+  ]
+}
